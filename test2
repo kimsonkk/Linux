@@ -1,0 +1,6 @@
+PRINT = "HELLO   \
+		 WORLD"
+
+test_make2 : test_source1.c\
+			   echo
+	gcc -o test_make2 test_source1.c

@@ -1,0 +1,2 @@
+test_make1 : test_make1.c
+	gcc -o test_make1 test_make1.c

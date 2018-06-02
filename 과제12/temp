@@ -1,0 +1,7 @@
+write to standard output
+before fork
+pid = 4368, glob_val = 11, loc_val = 101
+time : 0.000315
+before fork
+pid = 4367, glob_val = 10, loc_val = 100
+time : 3.000750

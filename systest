@@ -1,0 +1,6 @@
+t : main.o
+	gcc -o $@ main.o  #요기요
+main.o : 
+	gcc -c $*.c
+haha: 
+	echo "haha"

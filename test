@@ -1,0 +1,14 @@
+CC = gcc 
+T = "Hello World haha"
+OBJS = haha.o
+TARGET ?= "test for record ho"
+
+t : main.o
+	gcc -o t main.o
+
+main.o : main.c
+	gcc -o main.o main.c
+
+clean :
+	rm -f *.o
+	rm -f $(TARGET)

@@ -1,0 +1,3 @@
+CC = gcc
+OS = UNIX
+ blank = error
